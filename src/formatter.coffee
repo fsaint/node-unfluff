@@ -1,4 +1,4 @@
-stopwords = require("./stopwords")
+stopwords = require("./stopwords.coffee")
 _ = require("lodash")
 {XRegExp} = require('xregexp')
 

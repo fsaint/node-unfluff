@@ -1,6 +1,6 @@
 cheerio = require("cheerio")
-extractor = require("./extractor")
-cleaner = require("./cleaner")
+extractor = require("./extractor.coffee")
+cleaner = require("./cleaner.coffee")
 
 module.exports = unfluff = (html, language) ->
   doc = cheerio.load(html)

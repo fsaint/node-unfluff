@@ -1,1 +1,1 @@
-var uf = require("unfluff");
+var uf = require("./src/unfluff.coffee");

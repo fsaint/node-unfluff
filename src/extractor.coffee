@@ -1,6 +1,6 @@
 _ = require("lodash")
-stopwords = require("./stopwords")
-formatter = require("./formatter")
+stopwords = require("./stopwords.coffee")
+formatter = require("./formatter.coffee")
 
 module.exports =
   # Grab the date of an html doc
