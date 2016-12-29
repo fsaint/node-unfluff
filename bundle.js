@@ -1,3 +1,4 @@
+var EntryPoint =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -44,9 +45,13 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var uf;
+	var extractor = __webpack_require__(1);
 
-	uf = __webpack_require__(1);
+	module.exports = {
+	  run: function (html) {
+	   	 return extractor(html); 
+	  }
+	};
 
 
 /***/ },

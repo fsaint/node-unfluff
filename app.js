@@ -1,1 +1,7 @@
-var uf = require("./src/unfluff.coffee");
+var extractor = require("./src/unfluff.coffee");
+
+module.exports = {
+  run: function (html) {
+   	 return extractor(html); 
+  }
+};

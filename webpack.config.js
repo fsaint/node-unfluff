@@ -5,8 +5,10 @@ module: {
            	{ test: /\.coffee$/, loader: "coffee-loader" }
         ]
     },
-      entry: './app.coffee',
+      entry: './app.js',
         output: {
-                filename: 'bundle.js'
+                filename: 'bundle.js',
+				libraryTarget: 'var',
+				library: 'EntryPoint',
         }
 }
